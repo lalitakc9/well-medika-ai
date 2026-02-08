@@ -1,10 +1,10 @@
-# 🏥 ClinikAid / WellMedica — Clinical AI Triage & Decision Support System
+# WellMedica — Clinical AI Triage & Decision Support System
 
 > A safety-first, explainable, hybrid clinical triage system combining rule-based medical logic with assistive AI for primary care decision support.
 
 ---
 
-## 📌 Overview
+## Overview
 
 ClinikAid (also referred to as WellMedica) is an **applied AI system** designed to assist in **clinical triage and preliminary decision support** for general healthcare settings (e.g., general practice, skin care, dental, primary clinics).
 
@@ -21,7 +21,7 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Build a **safe, explainable clinical triage system**
 - Combine **deterministic medical rules + AI assistance**
@@ -35,15 +35,15 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 ---
 
-## 🧠 System Architecture (High Level)
+## System Architecture (High Level)
 
-# 🏥 ClinikAid / WellMedica — Clinical AI Triage & Decision Support System
+# WellMedica — Clinical AI Triage & Decision Support System
 
 > A safety-first, explainable, hybrid clinical triage system combining rule-based medical logic with assistive AI for primary care decision support.
 
 ---
 
-## 📌 Overview
+## Overview
 
 ClinikAid (also referred to as WellMedica) is an **applied AI system** designed to assist in **clinical triage and preliminary decision support** for general healthcare settings (e.g., general practice, skin care, dental, primary clinics).
 
@@ -60,7 +60,7 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Build a **safe, explainable clinical triage system**
 - Combine **deterministic medical rules + AI assistance**
@@ -74,7 +74,7 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 ---
 
-## 🧠 System Architecture (High Level)
+## System Architecture (High Level)
 
 
 ![ClinikAid System Architecture](app/docs/project_architecture.png)
@@ -83,7 +83,7 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 ---
 
-## 🧩 Key Components
+## Key Components
 
 ### 1️⃣ API Layer (FastAPI)
 - Handles requests and input validation (Pydantic)
@@ -135,7 +135,7 @@ This ensures:
 
 ---
 
-## 🔐 Ethics, Privacy & Safety
+## Ethics, Privacy & Safety
 
 - If `consent = false`:
   - ❌ No patient data stored
@@ -147,7 +147,7 @@ This ensures:
 
 ---
 
-## 🧪 Research Directions
+## Research Directions
 
 This system is designed as a **research platform** to study:
 
@@ -166,7 +166,7 @@ Planned:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** Python, FastAPI  
 - **AI:** LLM APIs (pluggable: Gemini/OpenAI/etc.)  
@@ -177,7 +177,7 @@ Planned:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
 
@@ -197,7 +197,7 @@ Planned:
 
 ---
 
-## 🚀 How to Run (Basic)
+## How to Run (Basic)
 
 ```bash
 git clone https://github.com/lalitakc9/well-medika-ai.git
