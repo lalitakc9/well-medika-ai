@@ -77,12 +77,12 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 ## 🧠 System Architecture (High Level)
 
 
-![ClinikAid System Architecture](docs/project_architecture.png)
+![ClinikAid System Architecture](app/docs/project_architecture.png)
 
 
 
 <p align="center">
-  <img src="docs/project_architecture.png" alt="ClinikAid System Architecture" width="800"/>
+  <img src="app/docs/project_architecture.png" alt="ClinikAid System Architecture" width="800"/>
 </p>
 
 
