@@ -79,17 +79,7 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 ![ClinikAid System Architecture](app/docs/project_architecture.png)
 
-
-
-<p align="center">
-  <img src="app/docs/project_architecture.png" alt="ClinikAid System Architecture" width="800"/>
-</p>
-
-
-
-
 *Figure 1: High-level architecture of the hybrid clinical AI triage and decision support system.*
-
 
 ---
 
