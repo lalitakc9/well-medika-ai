@@ -1,8 +1,8 @@
-__pycache__/
-.env
 .venv/
-.env.local
-*.sqlite3
-*.log
-*.venv
-*.vscode
+venv/
+__pycache__/
+build/
+dist/
+*.so
+*.pyd
+*.pyc

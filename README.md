@@ -87,7 +87,6 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 
 
-
 *Figure 1: High-level architecture of the hybrid clinical AI triage and decision support system.*
 
 
