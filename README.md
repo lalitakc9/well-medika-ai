@@ -1,10 +1,10 @@
-# 🏥 ClinikAid / WellMedica — Clinical AI Triage & Decision Support System
+# WellMedica — Clinical AI Triage & Decision Support System
 
 > A safety-first, explainable, hybrid clinical triage system combining rule-based medical logic with assistive AI for primary care decision support.
 
 ---
 
-## 📌 Overview
+## Overview
 
 ClinikAid (also referred to as WellMedica) is an **applied AI system** designed to assist in **clinical triage and preliminary decision support** for general healthcare settings (e.g., general practice, skin care, dental, primary clinics).
 
@@ -21,7 +21,7 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Build a **safe, explainable clinical triage system**
 - Combine **deterministic medical rules + AI assistance**
@@ -35,64 +35,15 @@ Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliabili
 
 ---
 
-## 🧠 System Architecture (High Level)
+## System Architecture (High Level)
 
-# 🏥 ClinikAid / WellMedica — Clinical AI Triage & Decision Support System
-
-> A safety-first, explainable, hybrid clinical triage system combining rule-based medical logic with assistive AI for primary care decision support.
-
----
-
-## 📌 Overview
-
-ClinikAid (also referred to as WellMedica) is an **applied AI system** designed to assist in **clinical triage and preliminary decision support** for general healthcare settings (e.g., general practice, skin care, dental, primary clinics).
-
-The system follows a **hybrid architecture**:
-
-- ✅ **Rule-based engine** as the first line of safety (deterministic, explainable, offline-capable)
-- 🤖 **AI-assisted reasoning** (LLM) used only when appropriate
-- 🧾 **Audit logging & traceability** for every decision
-- 🔐 **Consent-aware data storage** for privacy and compliance
-- 🧠 **Explainable outputs** separated for clinical vs patient-facing messages
-
-**Research motivation:**  
-Explore how **hybrid AI systems** (rules + LLMs) can improve **safety, reliability, and explainability** in clinical decision support compared to AI-only approaches.
-
----
-
-## 🎯 Goals
-
-- Build a **safe, explainable clinical triage system**
-- Combine **deterministic medical rules + AI assistance**
-- Provide **traceable, auditable decisions**
-- Support **human-in-the-loop** clinical workflows
-- Serve as a **research platform** for:
-  - Hybrid AI systems
-  - Clinical AI safety
-  - Explainable AI (XAI)
-  - ML systems in healthcare
-
----
-
-## 🧠 System Architecture (High Level)
-
-
-![ClinikAid System Architecture](docs/project_architecture.png)
-
-
-
-<p align="center">
-  <img src="docs/project_architecture.png" alt="ClinikAid System Architecture" width="800"/>
-</p>
-
-
+![ClinikAid System Architecture](app/docs/project_architecture.png)
 
 *Figure 1: High-level architecture of the hybrid clinical AI triage and decision support system.*
 
-
 ---
 
-## 🧩 Key Components
+## Key Components
 
 ### 1️⃣ API Layer (FastAPI)
 - Handles requests and input validation (Pydantic)
@@ -144,7 +95,7 @@ This ensures:
 
 ---
 
-## 🔐 Ethics, Privacy & Safety
+## Ethics, Privacy & Safety
 
 - If `consent = false`:
   - ❌ No patient data stored
@@ -156,7 +107,7 @@ This ensures:
 
 ---
 
-## 🧪 Research Directions
+## Research Directions
 
 This system is designed as a **research platform** to study:
 
@@ -175,7 +126,7 @@ Planned:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** Python, FastAPI  
 - **AI:** LLM APIs (pluggable: Gemini/OpenAI/etc.)  
@@ -186,7 +137,16 @@ Planned:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
+```
+wellmedica-ai/
+  app/
+    main.py
+    docs/
+      project_architecture.png
+  README.md
+```
 
 
 
@@ -206,10 +166,11 @@ Planned:
 
 ---
 
-## 🚀 How to Run (Basic)
+## How to Run (Basic)
 
 ```bash
 git clone https://github.com/lalitakc9/well-medika-ai.git
 cd well-medika-ai
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+```
