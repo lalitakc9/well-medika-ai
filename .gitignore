@@ -6,3 +6,27 @@ dist/
 *.so
 *.pyd
 *.pyc
+.vscode/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+
+# Generic env and secret files
+*.env
+*.key
+*.pem
+*.crt
+*.pfx
+
+# Local databases and logs
+*.sqlite3
+*.db
+*.log

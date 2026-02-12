@@ -1,7 +1,10 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-DATABASE_URL = "postgresql+psycopg2://postgres:1234@localhost:5432/wellmedica_db"
+from app.config import DATABASE_URL as ENV_DATABASE_URL
+
+# Normalize URL driver for synchronous SQLAlchemy engine usage
+DATABASE_URL = ENV_DATABASE_URL.replace("+asyncpg", "+psycopg2")
 
 engine = create_engine(DATABASE_URL)
 

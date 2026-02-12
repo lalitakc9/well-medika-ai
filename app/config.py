@@ -3,9 +3,8 @@ import os
 
 load_dotenv()
 
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "postgresql+asyncpg://postgres:1234@localhost:5432/wellmedica_db"
-)
+DATABASE_URL = os.getenv("DATABASE_URL")
+if not DATABASE_URL:
+    raise RuntimeError("DATABASE_URL is not set in .env")
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
